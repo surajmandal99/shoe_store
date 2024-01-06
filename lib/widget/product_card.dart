@@ -14,7 +14,7 @@ class ProductCard extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(bottom: 30),
       width: double.infinity,
-      height: MediaQuery.of(context).size.height * 0.50,
+      height: MediaQuery.of(context).size.height * 0.45,
       decoration: BoxDecoration(
           color: Color(datalist.cardColor),
           borderRadius: BorderRadius.circular(20.0),
